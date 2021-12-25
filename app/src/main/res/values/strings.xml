@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PeopleforceTestTask</string>
+    <string name="create_new_notification">Create new notification</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="plus_button">Plus button</string>
+    <string name="minus_button">Minus button</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/fragment_layout_create_new_notification_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="@dimen/create_notification_button_radius"
+        android:layout_height="@dimen/create_notification_button_radius"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="143dp"
+        android:background="@drawable/round_button"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:text="@string/create_new_notification"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:backgroundTint="?colorPrimaryVariant" />
+
+    <TextView
+        android:id="@+id/fragment_layout_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="53dp"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/round_corner_rectangle"
+        android:gravity="center"
+        android:textColor="?colorOnPrimary"
+        android:textSize="32sp"
+        tools:text="0" />
+    
+    <ImageButton
+        android:id="@+id/fragment_layout_plus_button"
+        android:layout_width="@dimen/small_button_size"
+        android:layout_height="@dimen/small_button_size"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="?colorOnPrimary"
+        android:contentDescription="@string/plus_button"
+        android:src="@drawable/ic_plus"
+        app:tint="?colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/fragment_layout_minus_button"
+        android:layout_width="@dimen/small_button_size"
+        android:layout_height="@dimen/small_button_size"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="?colorOnPrimary"
+        android:contentDescription="@string/minus_button"
+        android:src="@drawable/ic_minus"
+        app:tint="?colorPrimary" />
+
+</FrameLayout>

@@ -31,7 +31,7 @@
         android:textColor="?colorOnPrimary"
         android:textSize="32sp"
         tools:text="0" />
-    
+
     <ImageButton
         android:id="@+id/fragment_layout_plus_button"
         android:layout_width="@dimen/small_button_size"
